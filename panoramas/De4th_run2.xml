@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <panorama xmlns="http://www.immervision.com/panorama">
+      <meta>
+        <title>
+          De4th_run2 panorama1
+        </title>
+        <author>
+          Yann39
+        </author>
+      </meta>
+      <panoSphere >
+        <image file="De4th_run2.jpg"/>
+        <hotspotPolygonal color="#FFC40000" visible="true" display="true">
+          <polygon>
+            <vertex pan="-0.5" tilt="6.3"/>
+            <vertex pan="-3" tilt="6"/>
+            <vertex pan="-6" tilt="3.7"/>
+            <vertex pan="-8.1" tilt="0.7"/>
+            <vertex pan="-8.8" tilt="-2.5"/>
+            <vertex pan="-8.9" tilt="-5"/>
+            <vertex pan="-8.3" tilt="-8"/>
+            <vertex pan="-6" tilt="-11"/>
+            <vertex pan="-3" tilt="-13"/>
+            <vertex pan="-2" tilt="-13.3"/>
+            <vertex pan="-0.5" tilt="-13.4"/>
+            <vertex pan="2" tilt="-13.3"/>
+            <vertex pan="3" tilt="-13"/>
+            <vertex pan="6" tilt="-11"/>
+            <vertex pan="8.2" tilt="-8"/>
+            <vertex pan="8.8" tilt="-5"/>
+            <vertex pan="8.8" tilt="-2.5"/>
+            <vertex pan="8.1" tilt="0.7"/>
+            <vertex pan="6" tilt="3.7"/>
+            <vertex pan="3" tilt="6"/>
+          </polygon>
+          <mouseClick>
+            loadpano("De4th_run2_2.xml",true);
+          </mouseClick>
+          <text>
+            Click here to go to the 2nd panorama
+          </text>
+        </hotspotPolygonal>
+      </panoSphere>
+      <camera>
+        <entrypoint pan="0" tilt="0" fov="120"/>
+        <limits maxFov="120" minFov="120" lockZenithNadir="true"/>
+        <autopath>
+          <move apid="autopan" pan="-5" />
+        </autopath>
+      </camera>
+    </panorama>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <panorama xmlns="http://www.immervision.com/panorama">
+      <meta>
+        <title>
+          Mega_evening panorama
+        </title>
+        <author>
+          Yann39
+        </author>
+      </meta>
+      <panoSphere >
+        <image file="Mega_evening.jpg"/>
+      </panoSphere>
+      <camera>
+        <entrypoint pan="0" tilt="0" fov="120"/>
+        <limits maxFov="120" minFov="120" lockZenithNadir="true"/>
+        <autopath>
+          <move apid="autopan" pan="-5" />
+        </autopath>
+      </camera>
+    </panorama>

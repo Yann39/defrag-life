@@ -1,0 +1,167 @@
+A:link {
+	text-decoration:underline;
+	color:#bed4ff;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size: 8pt;
+}
+
+A:visited {
+	text-decoration:underline;
+	color:#bed4ff;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size:8pt;
+}
+
+A:active {
+	text-decoration:underline;
+	color:#bed4ff;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:8pt;
+}
+
+A:hover {
+	text-decoration:none;
+	color:#ffffff;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:8pt;
+}
+
+A.liens_menu_horiz:link {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:10pt;
+	font-weight:bold;
+	color:#000000;
+	text-decoration:underline;
+}
+
+A.liens_menu_horiz:visited {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:10pt;
+	font-weight:bold;
+	color:#000000;
+	text-decoration:underline;
+}
+
+A.liens_menu_horiz:active {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:10pt;
+	font-weight:bold;
+	color:#000000;
+	text-decoration:underline;
+}
+
+A.liens_menu_horiz:hover {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:10pt;
+	font-weight:bold;
+	color:#666666;
+	text-decoration:none;
+}
+
+A.liens_joueurs:link {
+	text-decoration:none;
+	color:#ffffff;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size: 8pt;
+}
+
+A.liens_joueurs:visited {
+	text-decoration:none;
+	color:#ffffff;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size:8pt;
+}
+
+A.liens_joueurs:active {
+	text-decoration:none;
+	color:#ffffff;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:8pt;
+}
+
+A.liens_joueurs:hover {
+	text-decoration:underline;
+	color:#ffffff;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:8pt;
+}
+
+.news_titre {
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:11pt;
+	font-style:italic;
+	font-weight:bold;
+	color:#bed4ff;
+}
+
+.petit_nombre {
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:8pt;
+	color:#ffffff;
+}
+
+.couleur_bleu {
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:8pt;
+	color:#bed4ff;
+}
+
+.couleur_noir {
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:8pt;
+	color:#000000;
+}
+
+.couleur_blanc {
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:8pt;
+	color:#ffffff;
+}
+
+.couleur_rouge {
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:10pt;
+	color:#ff0000;
+}
+
+.couleur_blanc_souligne {
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:8pt;
+	color:#ffffff;
+	text-decoration:underline;
+}
+
+.couleur_blanc_souligne_border {
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:8pt;
+	color:#ffffff;
+	border-bottom-width:1px;
+	border-bottom-style:solid;
+	border-bottom-color:#000099;
+}
+
+.couleur_blanc_souligne_gros {
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:10pt;
+	color:#ffffff;
+	text-decoration:underline;
+}
+
+.couleur_bleu_souligne {
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:8pt;
+	color:#bed4ff;
+	text-decoration:underline;
+}
+
+.ascenseur_recjoueurs { 
+    overflow:auto; 
+	height:205px;
+	width:320px;
+	margin-top:15px;
+	margin-left:auto;
+	margin-right:auto;
+   	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:8pt;
+	color:#ffffff;
+} 

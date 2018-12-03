@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <panorama xmlns="http://www.immervision.com/panorama">
+      <meta>
+        <title>
+          De4th_run2 panorama3
+        </title>
+        <author>
+          Yann39
+        </author>
+      </meta>
+      <panoSphere >
+        <image file="De4th_run2_3.jpg"/>
+        <hotspotRectangle id="toPano2" pan="-179" tilt="-13.2" panSize="7.5" tiltSize="4.4" color="#FFC40000" visible="true" display="true">
+          <mouseClick>
+            loadpano("De4th_run2_2.xml",true);
+          </mouseClick>
+          <text>
+            Click here to go back to the 2nd panorama
+          </text>
+        </hotspotRectangle>
+      </panoSphere>
+      <camera>
+        <entrypoint pan="0" tilt="0" fov="120"/>
+        <limits maxFov="120" minFov="120" lockZenithNadir="true"/>
+        <autopath>
+          <move apid="autopan" pan="-5" />
+        </autopath>
+      </camera>
+    </panorama>

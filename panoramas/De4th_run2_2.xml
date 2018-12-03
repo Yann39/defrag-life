@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <panorama xmlns="http://www.immervision.com/panorama">
+      <meta>
+        <title>
+          De4th_run2 panorama2
+        </title>
+        <author>
+          Yann39
+        </author>
+      </meta>
+      <panoSphere >
+        <image file="De4th_run2_2.jpg"/>
+        <hotspotRectangle id="toPano2" pan="-180" tilt="10.6" panSize="14" tiltSize="8" color="#FFC40000" visible="true" display="true">
+          <mouseClick>
+            loadpano("De4th_run2_3.xml",true);
+          </mouseClick>
+          <text>
+            Click here to go to the 3rd panorama
+          </text>
+        </hotspotRectangle>
+        <hotspotPolygonal color="#FFC40000" visible="true" display="true">
+          <polygon>
+            <vertex pan="-180.5" tilt="-14.7"/>
+            <vertex pan="-182" tilt="-14.7"/>
+            <vertex pan="-188" tilt="-17.2"/>
+            <vertex pan="-191.5" tilt="-22.3"/>
+            <vertex pan="-192.1" tilt="-28"/>
+            <vertex pan="-189" tilt="-33.5"/>
+            <vertex pan="-186.5" tilt="-35.5"/>
+            <vertex pan="-182" tilt="-36.5"/>
+            <vertex pan="-180.5" tilt="-36.7"/>
+            <vertex pan="-178" tilt="-36.5"/>
+            <vertex pan="-173.5" tilt="-35.5"/>
+            <vertex pan="-171" tilt="-33.5"/>
+            <vertex pan="-168" tilt="-28"/>
+            <vertex pan="-168.5" tilt="-22.3"/>
+            <vertex pan="-172" tilt="-17.2"/>
+            <vertex pan="-178" tilt="-14.7"/>
+          </polygon>
+          <mouseClick>
+            loadpano("De4th_run2.xml",true);
+          </mouseClick>
+          <text>
+            Click here to go back to the 1st panorama
+          </text>
+        </hotspotPolygonal>
+      </panoSphere>
+      <camera>
+        <entrypoint pan="0" tilt="0" fov="120"/>
+        <limits maxFov="120" minFov="120" lockZenithNadir="true"/>
+        <autopath>
+          <move apid="autopan" pan="-5" />
+        </autopath>
+      </camera>
+    </panorama>

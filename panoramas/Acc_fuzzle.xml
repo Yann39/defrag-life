@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <panorama xmlns="http://www.immervision.com/panorama">
+      <meta>
+        <title>
+          Acc_fuzzle panorama1
+        </title>
+        <author>
+          Yann39
+        </author>
+      </meta>
+      <panoSphere >
+        <image file="Acc_fuzzle.jpg"/>
+        <hotspotPolygonal color="#FFC40000" visible="true" display="true">
+          <polygon>
+            <vertex pan="1" tilt="2.7"/>
+            <vertex pan="-1" tilt="2.8"/>
+            <vertex pan="-1.5" tilt="2.6"/>
+            <vertex pan="-2" tilt="2.2"/>
+            <vertex pan="-2.5" tilt="1.6"/>
+            <vertex pan="-3" tilt="1"/>
+            <vertex pan="-3" tilt="-5"/>
+            <vertex pan="2.6" tilt="-5"/>
+            <vertex pan="2.6" tilt="1"/>
+            <vertex pan="2.1" tilt="1.6"/>
+            <vertex pan="1.6" tilt="2.2"/>
+            <vertex pan="1.1" tilt="2.6"/>
+          </polygon>
+          <mouseClick>
+            loadpano("Acc_fuzzle_2.xml",true);
+          </mouseClick>
+          <text>
+            Click here to go to the 2nd panorama
+          </text>
+        </hotspotPolygonal>
+      </panoSphere>
+      <camera>
+        <entrypoint pan="0" tilt="0" fov="120"/>
+        <limits maxFov="120" minFov="120" lockZenithNadir="true"/>
+        <autopath>
+          <move apid="autopan" pan="-5" />
+        </autopath>
+      </camera>
+    </panorama>
