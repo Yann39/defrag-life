@@ -1,10 +1,13 @@
 # General
 
-My first **PHP/MySQL** website, build in **early 2000's** !
+My first **PHP/MySQL** website, build in **early 2000's**.
+
 Still up and running and **W3C strict** compliant !
 
-The website allowed player of the **DeFRaG mod** of the **Quake 3 arena** game to upload their demos (performance
-recording) on maps creating by me and my brother, so that we can build rankings.
+The website allowed players of the **DeFRaG mod** from the **Quake 3 arena** game to upload their demos (performance
+recording) on maps created by me and my brother, so that we can build rankings.
+
+It was also a way to share resources like maps, textures, wallpapers, etc. we liked to create.
 
 # Screenshot
 
