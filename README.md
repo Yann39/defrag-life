@@ -15,7 +15,7 @@ It was also a way to share resources like maps, textures, wallpapers, etc. we li
 
 # Usage
 
-Website is accessible at the following address : http://mysootybox.com/defrag-life
+Website is accessible at the following address : http://quake.mysootybox.com/
 
 The purpose is just to keep a usable snapshot of the website as a souvenir and so it does not become anonymous :)
 
