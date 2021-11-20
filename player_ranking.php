@@ -80,7 +80,7 @@ $nbjou = mysqli_num_rows($req);
 									$tablo=array();
 									$cpt2=1;
 									$ok=0;
-									$sql2 = "SELECT pays, joueur, map j, COUNT(id), ROUND(SUM((SELECT MIN(temps) FROM dl_Demos WHERE map=j AND physics='".$phys."')/temps)*10,2) AS TotalPoints FROM dl_Demos WHERE physics='".$phys."' AND valide=1 GROUP BY joueur ORDER BY TotalPoints DESC";
+									$sql2 = "SELECT pays, joueur, map, COUNT(id), ROUND(SUM((SELECT MIN(temps) FROM dl_Demos d2 WHERE d1.map=d2.map AND physics='".$phys."')/temps)*10,2) AS TotalPoints FROM dl_Demos d1 WHERE physics='".$phys."' AND valide=1 GROUP BY joueur ORDER BY TotalPoints DESC";
 									$req2 = mysqli_query($db, $sql2) or die('Erreur SQL !'.$sql2.'<br/>'.mysqli_error());
 									$sql3 = "SELECT joueur, COUNT(id) AS NbOr FROM dl_Demos WHERE place=1 AND physics='".$phys."' AND valide=1 GROUP BY joueur ORDER BY NbOr DESC";
 									$req3 = mysqli_query($db, $sql3) or die('Erreur SQL !'.$sql3.'<br/>'.mysqli_error());

@@ -23,9 +23,9 @@ $req2 = mysqli_query($db, $sql2) or die('Erreur SQL !'.$sql2.'<br/>'.mysqli_erro
 $sql5 = "SELECT COUNT(id) FROM dl_Demos WHERE joueur='".$player."' AND valide=1 AND physics='cpm' ORDER BY nom ASC";
 $req5 = mysqli_query($db, $sql5) or die('Erreur SQL !'.$sql5.'<br/>'.mysqli_error());
 
-$sql3 = "SELECT map j, ROUND(SUM((SELECT MIN(temps) FROM dl_Demos WHERE map=j)/temps)*10,2) AS TotalPoints FROM dl_Demos WHERE physics='vq3' AND valide=1 AND joueur='".$player."' GROUP BY joueur ORDER BY TotalPoints DESC limit 0,1";
+$sql3 = "SELECT map, ROUND(SUM((SELECT MIN(temps) FROM dl_Demos d2 WHERE d1.map=d2.map)/temps)*10,2) AS TotalPoints FROM dl_Demos d1 WHERE physics='vq3' AND valide=1 AND joueur='".$player."' GROUP BY joueur ORDER BY TotalPoints DESC limit 0,1";
 $req3 = mysqli_query($db, $sql3) or die('Erreur SQL !'.$sql3.'<br/>'.mysqli_error());
-$sql4 = "SELECT map j, ROUND(SUM((SELECT MIN(temps) FROM dl_Demos WHERE map=j)/temps)*10,2) AS TotalPoints FROM dl_Demos WHERE physics='cpm' AND valide=1 AND joueur='".$player."' GROUP BY joueur ORDER BY TotalPoints DESC limit 0,1";
+$sql4 = "SELECT map, ROUND(SUM((SELECT MIN(temps) FROM dl_Demos d2 WHERE d1.map=d2.map)/temps)*10,2) AS TotalPoints FROM dl_Demos d1 WHERE physics='cpm' AND valide=1 AND joueur='".$player."' GROUP BY joueur ORDER BY TotalPoints DESC limit 0,1";
 $req4 = mysqli_query($db, $sql4) or die('Erreur SQL !'.$sql4.'<br/>'.mysqli_error());
 
 $nbDemosvq3 = mysqli_fetch_row($req2);
