@@ -93,7 +93,7 @@ $nbpages = ceil(mysqli_num_rows($req)/$nbmaps);
                             <tr> 
                               <td class='couleur_bleu_souligne' style='text-align:right;width:213px;text-decoration:underline;'>Download</td> 
                               <td class='couleur_bleu' style='text-align:center;width:40px;'>:</td> 
-                              <td class='couleur_bleu' style='text-align:left;width:213px;'><a href='clic.php3?url=".$row[6]."'><img src='images/lienddl.gif' style='border:none;' alt=''/></a> (<span class='couleur_blanc'>"; 
+                              <td class='couleur_bleu' style='text-align:left;width:213px;'><a href='clic.php?url=".$row[6]."'><img src='images/lienddl.gif' style='border:none;' alt=''/></a> (<span class='couleur_blanc'>";
 								$underscored = str_replace ("/", "_", $row[6]);
 								$underscored2 = "data/".$underscored.".dat";
 								include($underscored2);

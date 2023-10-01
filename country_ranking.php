@@ -88,6 +88,14 @@ $nbpays = mysqli_num_rows($req);
 									$req4 = mysqli_query($db, $sql4) or die('Erreur SQL !'.$sql4.'<br/>'.mysqli_error());
 									$sql5 = "SELECT joueur, COUNT(id) AS NbBronze FROM dl_Demos WHERE place=3 AND physics='".$phys."' AND valide=1 GROUP BY joueur ORDER BY NbBronze DESC";
 									$req5 = mysqli_query($db, $sql5) or die('Erreur SQL !'.$sql5.'<br/>'.mysqli_error());
+
+									$tabptspays = array();
+									$tabdemospays = array();
+									$tabplayerspays = array();
+									$taborpays = array();
+									$tabargentpays = array();
+									$tabbronzepays = array();
+
 									while ($row2 = mysqli_fetch_row($req2)) { //Pour chaque ligne (pays, joueur, map, nbDemos, TotalPoints)
 										//On récupère le nombre de médailles
 										$medailleor=0;$medailleargent=0;$medaillebronze=0;
@@ -114,14 +122,18 @@ $nbpays = mysqli_num_rows($req);
 										if (mysqli_num_rows($req4) != 0) mysqli_data_seek($req4,0);
 										if (mysqli_num_rows($req5) != 0) mysqli_data_seek($req5,0);
 
-										$tabptspays[strtolower($row2[0])] = $tabptspays[strtolower($row2[0])] + $row2[4];
-										$tabdemospays[strtolower($row2[0])] = $tabdemospays[strtolower($row2[0])] + $row2[3];
-										$tabplayerspays[strtolower($row2[0])] = $tabplayerspays[strtolower($row2[0])]."<a class='liens_joueurs' href='player_infos.php?player=".$row2[1]."&amp;country=".strtolower($row2[0])."' onclick=\"OuvrirInfosJoueur('player_infos.php?player=".$row2[1]."&amp;country=".strtolower($row2[0])."'); return false;\">".$row2[1]."</a> (".$row2[4].")<br/>";
-										$taborpays[strtolower($row2[0])] = $taborpays[strtolower($row2[0])] + $medailleor;
-										$tabargentpays[strtolower($row2[0])] = $tabargentpays[strtolower($row2[0])] + $medailleargent;
-										$tabbronzepays[strtolower($row2[0])] = $tabbronzepays[strtolower($row2[0])] + $medaillebronze;
+										$pays = strtolower($row2[0]);
+										$playerString = "<a class='liens_joueurs' href='player_infos.php?player=".$row2[1]."&amp;country=".$pays."' onclick=\"OuvrirInfosJoueur('player_infos.php?player=".$row2[1]."&amp;country=".$pays."'); return false;\">".$row2[1]."</a> (".$row2[4].")<br/>";
+										if (!isset($tabptspays[$pays])) { $tabptspays[$pays] = $row2[4] ?? 0; } else { $tabptspays[$pays] += $row2[4]; }
+										if (!isset($tabdemospays[$pays])) { $tabdemospays[$pays] = $row2[3] ?? 0; } else { $tabdemospays[$pays] += $row2[3]; }
+										if (!isset($tabplayerspays[$pays])) { $tabplayerspays[$pays] = $playerString ?? ''; } else { $tabplayerspays[$pays] .= $playerString; }
+										if (!isset($taborpays[$pays])) { $taborpays[$pays] = $medailleor ?? 0; } else { $taborpays[$pays] += $medailleor; }
+										if (!isset($tabargentpays[$pays])) { $tabargentpays[$pays] = $medailleargent ?? 0; } else { $tabargentpays[$pays] += $medailleargent; }
+										if (!isset($tabbronzepays[$pays])) { $tabbronzepays[$pays] = $medaillebronze ?? 0; } else { $tabbronzepays[$pays] += $medaillebronze; }
 									}
+
 									asort($tabplayerspays);
+
 									foreach ($tabptspays as $key => $val) {
 
 										if ($tri=="pos" && $ordre=="asc") { $trier = $val; $croissant=1; $cpt2=$nbpays; }

@@ -76,13 +76,13 @@ else {
 		}
 		else {
 			if ($row[3] == "vq3") {
-				if ($cptvq3==0) echo "<tr><td class='couleur_blanc'>vq3 maps :<br/><a href='maps.php?mapname=".$row[0]."&amp;maptype=vq3'>".$row[0]."</a> (by ".$row[1].") <a href='clic.php3?url=".$row[2]."'><img src='images/lienddl.gif' style='border:none;' alt=''/></a></td></tr>";
-				else echo "<tr><td class='couleur_blanc'><a href='maps.php?mapname=".$row[0]."&amp;maptype=vq3'>".$row[0]."</a> (by ".$row[1].") <a href='clic.php3?url=".$row[2]."'><img src='images/lienddl.gif' style='border:none;' alt=''/></a></td></tr>";
+				if ($cptvq3==0) echo "<tr><td class='couleur_blanc'>vq3 maps :<br/><a href='maps.php?mapname=".$row[0]."&amp;maptype=vq3'>".$row[0]."</a> (by ".$row[1].") <a href='clic.php?url=".$row[2]."'><img src='images/lienddl.gif' style='border:none;' alt=''/></a></td></tr>";
+				else echo "<tr><td class='couleur_blanc'><a href='maps.php?mapname=".$row[0]."&amp;maptype=vq3'>".$row[0]."</a> (by ".$row[1].") <a href='clic.php?url=".$row[2]."'><img src='images/lienddl.gif' style='border:none;' alt=''/></a></td></tr>";
 				$cptvq3++;
 			}
 			else {
-				if ($cptcpm==0)	echo "<tr><td class='couleur_blanc'><br/>cpm maps :<br/><a href='maps.php?mapname=".$row[0]."&amp;maptype=cpm'>".$row[0]."</a> (by ".$row[1].") <a href='clic.php3?url=".$row[2]."'><img src='images/lienddl.gif' style='border:none;' alt=''/></a></td></tr>";
-				else echo "<tr><td class='couleur_blanc'><a href='maps.php?mapname=".$row[0]."&amp;maptype=cpm'>".$row[0]."</a> (by ".$row[1].") <a href='clic.php3?url=".$row[2]."'><img src='images/lienddl.gif' style='border:none;' alt=''/></a></td></tr>";
+				if ($cptcpm==0)	echo "<tr><td class='couleur_blanc'><br/>cpm maps :<br/><a href='maps.php?mapname=".$row[0]."&amp;maptype=cpm'>".$row[0]."</a> (by ".$row[1].") <a href='clic.php?url=".$row[2]."'><img src='images/lienddl.gif' style='border:none;' alt=''/></a></td></tr>";
+				else echo "<tr><td class='couleur_blanc'><a href='maps.php?mapname=".$row[0]."&amp;maptype=cpm'>".$row[0]."</a> (by ".$row[1].") <a href='clic.php?url=".$row[2]."'><img src='images/lienddl.gif' style='border:none;' alt=''/></a></td></tr>";
 				$cptcpm++;
 			}
 		}

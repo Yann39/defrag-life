@@ -19,7 +19,7 @@ if(mysqli_connect_errno()) {
 			while ($row = mysqli_fetch_row($req)) {
 				echo "<tr> 
           			<td style='width:18%;text-align:center;'><img src='images/fleche.gif' alt=''/></td> 
-          			<td style='width:82%;text-align:left;'><a href='clic.php3?url=".$row[1]."' title='".$row[0]."'>".substr($row[0],0,14)."</a></td> 
+          			<td style='width:82%;text-align:left;'><a href='clic.php?url=".$row[1]."' title='".$row[0]."'>".substr($row[0],0,14)."</a></td>
        				</tr>";
 			}
 		?> 

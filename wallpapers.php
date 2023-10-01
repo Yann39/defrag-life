@@ -35,8 +35,8 @@
 						<td style="width:300px;border-width:1px;border-style:solid;border-color:#bed4ff;border-left:none;">
                             <p style="margin-left:10px;">
 							<span class="couleur_bleu_souligne">Author :</span> MegA-TecK<br/><br/>
-							<a href="clic.php3?url=downloads/wallpapers/wallpaper1(1024).jpg" onclick="window.open(this.href); return false;">1024 x 768</a> (70 Kb)<br/>
-							<a href="clic.php3?url=downloads/wallpapers/wallpaper1(800).jpg" onclick="window.open(this.href); return false;">800 x 600</a> (50.7 Kb)<br/>
+							<a href="clic.php?url=downloads/wallpapers/wallpaper1(1024).jpg" onclick="window.open(this.href); return false;">1024 x 768</a> (70 Kb)<br/>
+							<a href="clic.php?url=downloads/wallpapers/wallpaper1(800).jpg" onclick="window.open(this.href); return false;">800 x 600</a> (50.7 Kb)<br/>
 							<br/>
                             Clics : <span class="couleur_blanc"><? $inF = fopen("data/downloads_wallpapers_wallpaper1(1024).jpg.dat","r"); $inF2 = fopen("data/downloads_wallpapers_wallpaper1(800).jpg.dat","r");  echo fgets($inF, 4096)+fgets($inF2, 4096); fclose($inF); fclose($inF2); ?></span><br/>
 							</p>
@@ -48,8 +48,8 @@
 						<td style="width:300px;border-width:1px;border-style:solid;border-color:#bed4ff;border-left:none;">
                             <p style="margin-left:10px;">
 							<span class="couleur_bleu_souligne">Author :</span> MegA-TecK<br/><br/>
-							<a href="clic.php3?url=downloads/wallpapers/wallpaper2(1024).jpg" onclick="window.open(this.href); return false;">1024 x 768</a> (394 Kb)<br/>
-							<a href="clic.php3?url=downloads/wallpapers/wallpaper2(800).jpg" onclick="window.open(this.href); return false;">800 x 600</a> (285 Kb)<br/>
+							<a href="clic.php?url=downloads/wallpapers/wallpaper2(1024).jpg" onclick="window.open(this.href); return false;">1024 x 768</a> (394 Kb)<br/>
+							<a href="clic.php?url=downloads/wallpapers/wallpaper2(800).jpg" onclick="window.open(this.href); return false;">800 x 600</a> (285 Kb)<br/>
 							<br/>
                             Clics : <span class="couleur_blanc"><? $inF = fopen("data/downloads_wallpapers_wallpaper2(1024).jpg.dat","r"); $inF2 = fopen("data/downloads_wallpapers_wallpaper2(800).jpg.dat","r");  echo fgets($inF, 4096)+fgets($inF2, 4096); fclose($inF); fclose($inF2); ?></span><br/>
 							</p>
@@ -61,8 +61,8 @@
 						<td style="width:300px;border-width:1px;border-style:solid;border-color:#bed4ff;border-left:none;">
 							<p style="margin-left:10px;">
 							<span class="couleur_bleu_souligne">Author :</span> MegA-TecK<br/><br/>
-							<a href="clic.php3?url=downloads/wallpapers/wallpaper3(1024).jpg" onclick="window.open(this.href); return false;">1024 x 768</a> (434 Kb)<br/>
-							<a href="clic.php3?url=downloads/wallpapers/wallpaper3(800).jpg" onclick="window.open(this.href); return false;">800 x 600</a> (305 Kb)<br/>
+							<a href="clic.php?url=downloads/wallpapers/wallpaper3(1024).jpg" onclick="window.open(this.href); return false;">1024 x 768</a> (434 Kb)<br/>
+							<a href="clic.php?url=downloads/wallpapers/wallpaper3(800).jpg" onclick="window.open(this.href); return false;">800 x 600</a> (305 Kb)<br/>
 							<br/>
                             Clics : <span class="couleur_blanc"><? $inF = fopen("data/downloads_wallpapers_wallpaper3(1024).jpg.dat","r"); $inF2 = fopen("data/downloads_wallpapers_wallpaper3(800).jpg.dat","r");  echo fgets($inF, 4096)+fgets($inF2, 4096); fclose($inF); fclose($inF2); ?></span><br/>
 							</p>
@@ -74,8 +74,8 @@
 						<td style="width:300px;border-width:1px;border-style:solid;border-color:#bed4ff;border-left:none;">
 							<p style="margin-left:10px;">
 							<span class="couleur_bleu_souligne">Author :</span> MegA-TecK<br/><br/>
-							<a href="clic.php3?url=downloads/wallpapers/wallpaper4(1024).jpg" onclick="window.open(this.href); return false;">1024 x 768</a> (535 Kb)<br/>
-							<a href="clic.php3?url=downloads/wallpapers/wallpaper4(800).jpg" onclick="window.open(this.href); return false;">800 x 600</a> (297 Kb)<br/>
+							<a href="clic.php?url=downloads/wallpapers/wallpaper4(1024).jpg" onclick="window.open(this.href); return false;">1024 x 768</a> (535 Kb)<br/>
+							<a href="clic.php?url=downloads/wallpapers/wallpaper4(800).jpg" onclick="window.open(this.href); return false;">800 x 600</a> (297 Kb)<br/>
 							<br/>
                             Clics : <span class="couleur_blanc"><? $inF = fopen("data/downloads_wallpapers_wallpaper4(1024).jpg.dat","r"); $inF2 = fopen("data/downloads_wallpapers_wallpaper4(800).jpg.dat","r");  echo fgets($inF, 4096)+fgets($inF2, 4096); fclose($inF); fclose($inF2); ?></span><br/>
 							</p>
@@ -87,8 +87,8 @@
 						<td style="width:300px;border-width:1px;border-style:solid;border-color:#bed4ff;border-left:none;">
 							<p style="margin-left:10px;">
 							<span class="couleur_bleu_souligne">Author :</span> MegA-TecK<br/><br/>
-							<a href="clic.php3?url=downloads/wallpapers/wallpaper5(1024).jpg" onclick="window.open(this.href); return false;">1024 x 768</a> (432 Kb)<br/>
-							<a href="clic.php3?url=downloads/wallpapers/wallpaper5(800).jpg" onclick="window.open(this.href); return false;">800 x 600</a> (258 Kb)<br/>
+							<a href="clic.php?url=downloads/wallpapers/wallpaper5(1024).jpg" onclick="window.open(this.href); return false;">1024 x 768</a> (432 Kb)<br/>
+							<a href="clic.php?url=downloads/wallpapers/wallpaper5(800).jpg" onclick="window.open(this.href); return false;">800 x 600</a> (258 Kb)<br/>
 							<br/>
                             Clics : <span class="couleur_blanc"><? $inF = fopen("data/downloads_wallpapers_wallpaper5(1024).jpg.dat","r"); $inF2 = fopen("data/downloads_wallpapers_wallpaper5(800).jpg.dat","r");  echo fgets($inF, 4096)+fgets($inF2, 4096); fclose($inF); fclose($inF2); ?></span><br/>
 							</p>
@@ -100,8 +100,8 @@
 						<td style="width:300px;border-width:1px;border-style:solid;border-color:#bed4ff;border-left:none;">
 							<p style="margin-left:10px;">
 							<span class="couleur_bleu_souligne">Author :</span> MegA-TecK<br/><br/>
-							<a href="clic.php3?url=downloads/wallpapers/wallpaper6(1024).jpg" onclick="window.open(this.href); return false;">1024 x 768</a> (274 Kb)<br/>
-							<a href="clic.php3?url=downloads/wallpapers/wallpaper6(800).jpg" onclick="window.open(this.href); return false;">800 x 600</a> (188 Kb)<br/>
+							<a href="clic.php?url=downloads/wallpapers/wallpaper6(1024).jpg" onclick="window.open(this.href); return false;">1024 x 768</a> (274 Kb)<br/>
+							<a href="clic.php?url=downloads/wallpapers/wallpaper6(800).jpg" onclick="window.open(this.href); return false;">800 x 600</a> (188 Kb)<br/>
 							<br/>
                             Clics : <span class="couleur_blanc"><? $inF = fopen("data/downloads_wallpapers_wallpaper6(1024).jpg.dat","r"); $inF2 = fopen("data/downloads_wallpapers_wallpaper6(800).jpg.dat","r");  echo fgets($inF, 4096)+fgets($inF2, 4096); fclose($inF); fclose($inF2); ?></span><br/>
 							</p>
@@ -113,8 +113,8 @@
 						<td style="width:300px;border-width:1px;border-style:solid;border-color:#bed4ff;border-left:none;">
 							<p style="margin-left:10px;">
 							<span class="couleur_bleu_souligne">Author :</span> MegA-TecK<br/><br/>
-							<a href="clic.php3?url=downloads/wallpapers/wallpaper7(1024).jpg" onclick="window.open(this.href); return false;">1024 x 768</a> (813 Kb)<br/>
-							<a href="clic.php3?url=downloads/wallpapers/wallpaper7(800).jpg" onclick="window.open(this.href); return false;">800 x 600</a> (524 Kb)<br/>
+							<a href="clic.php?url=downloads/wallpapers/wallpaper7(1024).jpg" onclick="window.open(this.href); return false;">1024 x 768</a> (813 Kb)<br/>
+							<a href="clic.php?url=downloads/wallpapers/wallpaper7(800).jpg" onclick="window.open(this.href); return false;">800 x 600</a> (524 Kb)<br/>
 							<br/>
                             Clics : <span class="couleur_blanc"><? $inF = fopen("data/downloads_wallpapers_wallpaper7(1024).jpg.dat","r"); $inF2 = fopen("data/downloads_wallpapers_wallpaper7(800).jpg.dat","r");  echo fgets($inF, 4096)+fgets($inF2, 4096); fclose($inF); fclose($inF2); ?></span><br/>
 							</p>
@@ -126,8 +126,8 @@
 						<td style="width:300px;border-width:1px;border-style:solid;border-color:#bed4ff;border-left:none;">
 							<p style="margin-left:10px;">
 							<span class="couleur_bleu_souligne">Author :</span> MegA-TecK<br/><br/>
-							<a href="clic.php3?url=downloads/wallpapers/wallpaper8(1024).jpg" onclick="window.open(this.href); return false;">1024 x 768</a> (544 Kb)<br/>
-							<a href="clic.php3?url=downloads/wallpapers/wallpaper8(800).jpg" onclick="window.open(this.href); return false;">800 x 600</a> (384 Kb)<br/>
+							<a href="clic.php?url=downloads/wallpapers/wallpaper8(1024).jpg" onclick="window.open(this.href); return false;">1024 x 768</a> (544 Kb)<br/>
+							<a href="clic.php?url=downloads/wallpapers/wallpaper8(800).jpg" onclick="window.open(this.href); return false;">800 x 600</a> (384 Kb)<br/>
 							<br/>
                             Clics : <span class="couleur_blanc"><? $inF = fopen("data/downloads_wallpapers_wallpaper8(1024).jpg.dat","r"); $inF2 = fopen("data/downloads_wallpapers_wallpaper8(800).jpg.dat","r");  echo fgets($inF, 4096)+fgets($inF2, 4096); fclose($inF); fclose($inF2); ?></span><br/>
 							</p>
@@ -139,8 +139,8 @@
 						<td style="width:300px;border-width:1px;border-style:solid;border-color:#bed4ff;border-left:none;">
 							<p style="margin-left:10px;">
 							<span class="couleur_bleu_souligne">Author :</span> MegA-TecK<br/><br/>
-							<a href="clic.php3?url=downloads/wallpapers/wallpaper9(1024).jpg" onclick="window.open(this.href); return false;">1024 x 768</a> (957 Kb)<br/>
-							<a href="clic.php3?url=downloads/wallpapers/wallpaper9(800).jpg" onclick="window.open(this.href); return false;">800 x 600</a> (595 Kb)<br/>
+							<a href="clic.php?url=downloads/wallpapers/wallpaper9(1024).jpg" onclick="window.open(this.href); return false;">1024 x 768</a> (957 Kb)<br/>
+							<a href="clic.php?url=downloads/wallpapers/wallpaper9(800).jpg" onclick="window.open(this.href); return false;">800 x 600</a> (595 Kb)<br/>
 							<br/>
                             Clics : <span class="couleur_blanc"><? $inF = fopen("data/downloads_wallpapers_wallpaper9(1024).jpg.dat","r"); $inF2 = fopen("data/downloads_wallpapers_wallpaper9(800).jpg.dat","r");  echo fgets($inF, 4096)+fgets($inF2, 4096); fclose($inF); fclose($inF2); ?></span><br/>
 							</p>
@@ -152,8 +152,8 @@
 						<td style="width:300px;border-width:1px;border-style:solid;border-color:#bed4ff;border-left:none;">
 							<p style="margin-left:10px;">
 							<span class="couleur_bleu_souligne">Author :</span> MegA-TecK<br/><br/>
-							<a href="clic.php3?url=downloads/wallpapers/wallpaper10(1024).jpg" onclick="window.open(this.href); return false;">1024 x 768</a> (776 Kb)<br/>
-							<a href="clic.php3?url=downloads/wallpapers/wallpaper10(800).jpg" onclick="window.open(this.href); return false;">800 x 600</a> (499 Kb)<br/>
+							<a href="clic.php?url=downloads/wallpapers/wallpaper10(1024).jpg" onclick="window.open(this.href); return false;">1024 x 768</a> (776 Kb)<br/>
+							<a href="clic.php?url=downloads/wallpapers/wallpaper10(800).jpg" onclick="window.open(this.href); return false;">800 x 600</a> (499 Kb)<br/>
 							<br/>
                             Clics : <span class="couleur_blanc"><? $inF = fopen("data/downloads_wallpapers_wallpaper10(1024).jpg.dat","r"); $inF2 = fopen("data/downloads_wallpapers_wallpaper10(800).jpg.dat","r");  echo fgets($inF, 4096)+fgets($inF2, 4096); fclose($inF); fclose($inF2); ?></span><br/>
 							</p>
@@ -165,8 +165,8 @@
 						<td style="width:300px;border-width:1px;border-style:solid;border-color:#bed4ff;border-left:none;">
 							<p style="margin-left:10px;">
 							<span class="couleur_bleu_souligne">Author :</span> MegA-TecK<br/><br/>
-							<a href="clic.php3?url=downloads/wallpapers/wallpaper11(1024).jpg" onclick="window.open(this.href); return false;">1024 x 768</a> (1.61 Mb)<br/>
-							<a href="clic.php3?url=downloads/wallpapers/wallpaper11(800).jpg" onclick="window.open(this.href); return false;">800 x 600</a> (981 Kb)<br/>
+							<a href="clic.php?url=downloads/wallpapers/wallpaper11(1024).jpg" onclick="window.open(this.href); return false;">1024 x 768</a> (1.61 Mb)<br/>
+							<a href="clic.php?url=downloads/wallpapers/wallpaper11(800).jpg" onclick="window.open(this.href); return false;">800 x 600</a> (981 Kb)<br/>
 							<br/>
                             Clics : <span class="couleur_blanc"><? $inF = fopen("data/downloads_wallpapers_wallpaper11(1024).jpg.dat","r"); $inF2 = fopen("data/downloads_wallpapers_wallpaper11(800).jpg.dat","r");  echo fgets($inF, 4096)+fgets($inF2, 4096); fclose($inF); fclose($inF2); ?></span><br/>
 							</p>
@@ -178,8 +178,8 @@
 						<td style="width:300px;border-width:1px;border-style:solid;border-color:#bed4ff;border-left:none;">
 							<p style="margin-left:10px;">
 							<span class="couleur_bleu_souligne">Author :</span> MegA-TecK<br/><br/>
-							<a href="clic.php3?url=downloads/wallpapers/wallpaper12(1024).jpg" onclick="window.open(this.href); return false;">1024 x 768</a> (983 Kb)<br/>
-							<a href="clic.php3?url=downloads/wallpapers/wallpaper12(800).jpg" onclick="window.open(this.href); return false;">800 x 600</a> (655 Kb)<br/>
+							<a href="clic.php?url=downloads/wallpapers/wallpaper12(1024).jpg" onclick="window.open(this.href); return false;">1024 x 768</a> (983 Kb)<br/>
+							<a href="clic.php?url=downloads/wallpapers/wallpaper12(800).jpg" onclick="window.open(this.href); return false;">800 x 600</a> (655 Kb)<br/>
 							<br/>
                             Clics : <span class="couleur_blanc"><? $inF = fopen("data/downloads_wallpapers_wallpaper12(1024).jpg.dat","r"); $inF2 = fopen("data/downloads_wallpapers_wallpaper12(800).jpg.dat","r");  echo fgets($inF, 4096)+fgets($inF2, 4096); fclose($inF); fclose($inF2); ?></span><br/>
 							</p>
