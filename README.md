@@ -15,11 +15,11 @@ It was also a way to share resources like maps, textures, wallpapers, etc. we li
 
 # Usage
 
-Website is accessible at the following address : http://quake.mysootybox.com/
+Website is accessible at the following address : https://quake.rockybox.net/
 
-The purpose is just to keep a usable snapshot of the website as a souvenir and so it does not become anonymous :)
+The purpose is just to keep a usable snapshot of the website as a _souvenir_ and so it does not become anonymous :)
 
-I moved it "as is" from my old web host so some hardcoded/host-related features are missing, also sorry for Kitsch language, I was young :)
+I moved it "as is" from my old web host so some hardcoded/host-related features are missing, also sorry for kitsch language, we were young :)
 
 # Features
 
@@ -30,7 +30,7 @@ The website provided the following features :
   - VQ3/CPM type choice
   - paginated + sortable
   - downloadable files
-  - 360 panoramic views (uses PurePlayerPro library))
+  - 360 panoramic views (uses PurePlayerPro library)
   - list of players performances per map + downloadable demos
 - Search functionality (maps and demos)
 - Authenticated section (login / password)
@@ -39,8 +39,17 @@ The website provided the following features :
 - Forum (removed later)
 - Downloadable content (maps, demos, wallpapers, sky models, textures, software)
 
-# Licence
+## Licence
 
-WTFPL license : http://www.wtfpl.net/
+[General Public License (GPL) v3](https://www.gnu.org/licenses/gpl-3.0.en.html)
 
-But a mention is always appreciated :)
+This program is free software: you can redistribute it and/or modify it under the terms of the GNU
+General Public License as published by the Free Software Foundation, either version 3 of the
+License, or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without
+even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
+General Public License for more details.
+
+You should have received a copy of the GNU General Public License along with this program.  If not,
+see <http://www.gnu.org/licenses/>.

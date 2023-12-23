@@ -134,14 +134,14 @@
 					   
 					  <span class="couleur_blanc_souligne_gros"><img style="margin-right:5px;" src="images/fleche_dotted.gif" alt=""/>Patchs :</span><br/><br/>
 					   
-					  <a href="clic.php?url=http://www.fileplanet.com/files/60000/61607.shtml">Quake 3 Arena Point release (v 1.32) Final</a><span class="couleur_bleu"> (28 Mo) :
+					  <a href="clic.php?url=https://www.fileplanet.com/files/60000/61607.shtml">Quake 3 Arena Point release (v 1.32) Final</a><span class="couleur_bleu"> (28 Mo) :
 					  <span class="couleur_blanc"><? include("data/http:__www.fileplanet.com_files_60000_61607.shtml.dat"); ?></span> clics</span><br/> 
 					  
 					  <div style="text-align:center;margin-top:20px;margin-bottom:20px;"><img src="images/Dividers2.gif" alt=""/></div>
 					  
 					  <span class="couleur_blanc_souligne_gros"><img style="margin-right:5px;" src="images/fleche_dotted.gif" alt=""/>Mods :</span><br/><br/>
 					   
-					  <a href="clic.php?url=http://www.fileplanet.com/dl.aspx?defrag/full/defrag17pak.exe">Defrag 1.7 Full (All maps + Demos)</a><span class="couleur_bleu"> (39 Mo) :
+					  <a href="clic.php?url=https://www.fileplanet.com/dl.aspx?defrag/full/defrag17pak.exe">Defrag 1.7 Full (All maps + Demos)</a><span class="couleur_bleu"> (39 Mo) :
 					  <span class="couleur_blanc"><? include("data/http:__www.fileplanet.com_dl.aspx?defrag_full_defrag17pak.exe.dat"); ?></span> clics</span><br/> 
 					   
 					  <a href="clic.php?url=downloads/defrag1.9.zip">Defrag 1.9 (v 1.9)</a><span class="couleur_bleu"> (3,2 Mo) :
