@@ -1,4 +1,35 @@
-# General
+# Defrag-life
+
+My first **PHP** website about the **DeFRaG mod** of the **Quake 3 arena** game.
+
+![Version](https://img.shields.io/badge/Version-2.0.6-2AAB92.svg)
+![Static Badge](https://img.shields.io/badge/Last%20update-01%20Oct%202023-blue)
+
+[![Version](https://img.shields.io/badge/PHP-8.2%20FPM-darkslateblue.svg)](https://jdk.java.net/17/)
+[![Version](https://img.shields.io/badge/MariaDB-11.2.2-saddlebrown.svg)](https://jdk.java.net/17/)
+
+---
+
+# Table of Contents
+
+* [About the project](#about-the-project)
+* [Screenshot](#screenshot)
+* [Usage](#usage)
+* [Features](#features)
+* [License](#license)
+
+# About the project
+
+<table>
+  <tr>
+    <td>
+        <img alt="PHP logo" src="logo-php.svg" height="68"/>
+    </td>
+    <td>
+        <img alt="MariaDB logo" src="logo-mariadb.svg" height="75"/>
+    </td>
+  </tr>
+</table>
 
 My first **PHP/MySQL** website, build in **early 2000's**.
 
@@ -39,7 +70,7 @@ The website provided the following features :
 - Forum (removed later)
 - Downloadable content (maps, demos, wallpapers, sky models, textures, software)
 
-## Licence
+# License
 
 [General Public License (GPL) v3](https://www.gnu.org/licenses/gpl-3.0.en.html)
 
