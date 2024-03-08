@@ -5,8 +5,8 @@ My first **PHP** website about the **DeFRaG mod** of the **Quake 3 arena** game.
 ![Version](https://img.shields.io/badge/Version-2.0.6-2AAB92.svg)
 ![Static Badge](https://img.shields.io/badge/Last%20update-01%20Oct%202023-blue)
 
-[![Version](https://img.shields.io/badge/PHP-8.2%20FPM-darkslateblue.svg)](https://jdk.java.net/17/)
-[![Version](https://img.shields.io/badge/MariaDB-11.2.2-saddlebrown.svg)](https://jdk.java.net/17/)
+![Version](https://img.shields.io/badge/PHP-8.2%20FPM-darkslateblue.svg)
+![Version](https://img.shields.io/badge/MariaDB-11.2.2-saddlebrown.svg)
 
 ---
 
@@ -23,10 +23,10 @@ My first **PHP** website about the **DeFRaG mod** of the **Quake 3 arena** game.
 <table>
   <tr>
     <td>
-        <img alt="PHP logo" src="logo-php.svg" height="68"/>
+        <img alt="PHP logo" src="doc/logo-php.svg" height="68"/>
     </td>
     <td>
-        <img alt="MariaDB logo" src="logo-mariadb.svg" height="75"/>
+        <img alt="MariaDB logo" src="doc/logo-mariadb.svg" height="75"/>
     </td>
   </tr>
 </table>
